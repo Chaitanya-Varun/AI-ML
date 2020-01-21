@@ -1,0 +1,16 @@
+
+#Released under GNU GPL
+import numpy as np
+import matplotlib.pyplot as plt
+
+x=np.linspace(-10,10,50)
+
+y=1/(1+np.exp(-x))
+
+plt.plot(x,y)
+plt.title('Sigmoid Function')
+plt.xlabel('x')
+plt.ylabel('y')
+plt.grid()
+
+plt.show()
